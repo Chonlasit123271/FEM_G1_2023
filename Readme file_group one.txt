@@ -1,7 +1,7 @@
 # Project: Tetrahedron Finite Element Analysis (FEA) Solver
 
 ## Description
-This MATLAB script performs a Finite Element Analysis (FEA) on a tetrahedral structure subjected to external static loads and support conditions. It calculates nodal displacements to get the displacement that is equal to 4% of height of the structure. Besides, this file is customized for simple and regular 3D structure with isotropic material and also capable to capture non-linearity elasticity behavior. External meshing software is needed to perform structure meshing.
+This MATLAB script performs a Finite Element Analysis (FEA) on a tetrahedral structure subjected to external static loads and support conditions. It calculates nodal displacements to get the displacement that is equal to 4% of height of the structure. Besides, this file is customized for simple and regular 3D structure with isotropic material. External meshing software is needed to perform structure meshing.
 
 ## Usage
 1. Open MATLAB.
@@ -55,6 +55,8 @@ The script provides the following outputs:
 ## Notes
 - Ensure correct input of node coordinates and element connectivity for accurate results.
 - Modify the input parameters and boundary conditions according to your specific problem.
+- The technique of solving non-linear elasticity material is not a correct as it will lead to anisotropic material behavior.
+- The technique of solving non-linear elasticity material has to be improved. 
 
 ## ASIAN INSTITUTE OF TECHNOLOGY
 ## FIRST YEAR MASTER STUDENT, STRUCTURAL DEPARTMENT
